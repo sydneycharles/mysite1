@@ -13,7 +13,12 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+  scrollbar-width: 0;
   
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 body::before {
@@ -134,7 +139,7 @@ h6 {
 
 @media (max-width: 992px) {
   #header h1 {
-    font-size: 36px;
+    font-size: 70px;
   }
 
   #header h2 {
